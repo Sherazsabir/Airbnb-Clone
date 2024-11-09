@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Practice</title>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS files -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+  </head>
+  <body>
+    <!-- Start Project -->
+  <header class="container-fluid p-0">
+    <div class="container">
+     <div class="row p-0">
+      <div class="col-6">
+        <img class="img-fluid" src="/images/airbnblogo-removebg-preview.png" alt="" style="height: 90px; width: auto;">
+
+      </div>
+      <div class="col-6 d-flex align-items-center justify-content-end">
+      <h6 class="fw-bold">Airbnb your place</h6> 
+      </div>
+     </div>
+    </div>
+  </header>
+    <!-- header-section card -->
+  <section class="container-fluid">
+    <div class="container d-flex justify-content-end align-items-center header-main"> 
+    <div class="header-card">
+    <h1>Vacation rentals in Pakistan
+    </h1>
+    <p>Find and book unique accommodations on Airbnb</p>
+    <input id="header-input" class="ps-2" style="width: 90%; height:50px;" type="text" value="Pakistan" placeholder="AnyWhere">
+     <div class="row mt-2">
+      <div class="col-6 ps-3 text-start">
+        <input id="header-date-input" class="ps-2 py-3" type="date" placeholder="Date">
+      </div>
+      <div class="col-6 p-0 text-start">
+        <input id="header-date-input" class="ps-2 py-3" type="date" placeholder="Date">
+      </div>
+     </div> <!-- row end -->
+     <div id="header-search-btn">
+       <button class="mt-3 py-2">
+        <i class="fa-solid fa-magnifying-glass"></i><span<h5>search</h5></span>
+       </button>
+     </div>
+    </div>
+<!--        header img -->
+    <div class="header-img"></div>
+    </div>
+  </section>
+
+  <!-- card slider -->
+   <section class="container-fluid mt-5">
+    <div class="container ">
+     <h4>Top-rated vacation rentals in Lahore</h4>
+     <p>Guests agree: these stays are highly rated for location, cleanliness, and more.</p>
+     <div class="cards-container">
+     <div class="card-main-div">
+      <img src="https://rentals.com.pk/wp-content/uploads/2023/09/id-5687-1-Room-Available-For-Rent-In-R-Block-DHA-Phase-7-Lahore-5-600x375.jpg" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>3 BR Serviced First Floor Near Expo Center Lahore
+
+        RABTA: +.9.2.3.2.4.4.2.7.3.5.3.6 Centrally located in Airline Society adjacent to Shaukat Khanum Hospital, this living space has all the essentials needed to make you feel at home – Wifi, Netflix...</p>
+     </div>
+
+     <div class="card-main-div">
+      <img src="https://a0.muscache.com/im/pictures/miso/Hosting-835399638206443101/original/d5bc61d9-3e58-4320-acc5-6653fc42e363.jpeg" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Modern Comfort: 2-BR House in DHA Phase 5 LHR
+
+        Experience Modern Comfort in Our Stylish 2-Bedroom Retreat: Your Home Away From Home! This brand-new, modern house offers a cozy sophisticated retreat with all..</p>
+     </div>
+
+     <div class="card-main-div">
+      <img src="https://spacesuites.pk/wp-content/uploads/2023/07/room-mock.jpg" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Couples Friendly 1 BD Condo Apart DHA Gold Crest
+
+        When someone thinks of staying somewhere, one usually imagines a place where they need to choose between trade-offs like convenience, safety, and quality...</p>
+     </div>
+
+     <div class="card-main-div">
+      <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE1MDEwMzgzNzEwNTcyNTExOQ%3D%3D/original/41823601-e1c8-4e8b-86ba-a909db5d498a.jpeg" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>The Opus luxury Apartment 72-F
+
+        Located at heart of the city,with top sky view, 2 min drive to Mmalam and liberty,all amenities with hot watter and 24/7 electricity backup . fully secured and luxurious environment. Neat and...</p>
+     </div>
+
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX79G2dGHHUZSyXc7qBeK6JSm294jrtcLnZg&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Vacation Villa
+
+        Relax with the whole family at this peaceful place to stay. Brand new villa, safe and a neat clean option in DHA Phase 9 Town. Very close to parks and commercial markets. Perfect for family...</p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDpyklpvWMv0kNIv4N7vcLRyWivq14KP_3fQ&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Royal Three-Bed Room Villa Dha D Block Dha Phase 6
+
+        Comfortable , Clean and Luxurious Three Bed Room Full House only for families and Professionals.House Consist of Three Bed Rooms with King Size Bed with Attached Bath.Living Room With 40... </p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXQ6U6KeNWo_cndPK_9cfu5oqlCSDSyeHvlQ&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>LUXxZN|2BHK|Self Check-in|BALCONY|DHA|PENTA|DUPLEX
+
+        Welcome to our luxury 2 -bedroom hall (2 BHK) apartment nestled within the prestigious PENTA SQUARE in the heart of DHA Phase 5, Lahore .It showcase the vibrant pulse of the city and its top-...</p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw5YCHdg8wh1BhbhNQsMGebKya_F3Cr8HZEw&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>3 BHK Upper Portion Villa | Prime Location of LHR.
+
+        The house is centrally located in Lahore Gulberg. It has 3 Bedrooms along with attached bathrooms, a huge lounge with sitting capacity of 12 people, fully equipped kitchen, iron place and... </p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwb0XHr9_wnsvFOQsFD6e0Qe6SVs8L_qPMIQ&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>The Cottage: Independent 2-bed Luxury Duplex Villa
+
+        Welcome to The Cottage at HomeLoft - Your Charming Home Away from Home! Nestled in the serene embrace of nature, The Cottage is your idyllic retreat in Lahore. Discover a harmonious blend...</p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://content.estitor.com/182a6016-5f3d-43b0-90f1-90c99119b828-lg.webp" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Divine Gardens Retreat |The Royal Escape
+
+        Hosted by The Royal Escape. We present you this unique upper portion of this house in located in a prime residential area & has access to a beautiful patio where the guests can sit,relax and en...</p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowVKtqqUr1Y74WzhwlyxVLa05jkeTFDiP9g&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Luxury For Less In Heart Of Lahore!
+
+        Prime Location, Unbeatable Amenities! Location Nearby : · Gulberg's vibrant hub · M.M Alam Road's shopping paradise · Orange Train Station (5-minute walk) . DHA · Iqbal Town Main Boulevard...</p>
+     </div>
+     <div class="card-main-div">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR39MWttTLj9pT1h5CCmcOB0nXLiNsPfv9Heg&s" alt="img">
+      <h5 class="mt-2">Home in Lahore</h5>
+      <p>Divine Gardens Retreat |The Royal Escape
+
+        Hosted by The Royal Escape. We present you this unique upper portion of this house in located in a prime residential area & has access to a beautiful patio where the guests can sit,relax and en...</p>
+     </div>
+    </div>
+    </div>
+   </section>
+
+   <!-- vacation rental section -->
+   <section class="container-fluid mt-5">
+    <div class="container">
+      <h3>Vacation rentals for every style</h3>
+      <p>Get the amount of space that is right for you</p>
+      <div class="row gx-3 gy-5 vacation-rental-cards">
+        <div class="col-md-4 col-12  card">
+           <img class="img-fluid" src="https://a0.muscache.com/im/pictures/3b638d62-baa9-4bea-ba33-58c5ca4bbccb.jpg?im_w=480" alt="">
+           <h5 class="pt-2">Houses</h5>
+           <p>A space thats all yours, with room for everyone</p>
+        </div>
+        <div class="col-md-4 col-12 card">
+          <img class="img-fluid " src="https://a0.muscache.com/im/pictures/b5f91d25-c754-41fd-b31e-643f3179dbc1.jpg?im_w=480" alt="">
+          <h5 class="pt-2">Apartments</h5>
+          <p>Convenient locations with everyday essentials</p>
+        </div>
+        <div class="col-md-4 col-12 card">
+          <img class="img-fluid" src="https://a0.muscache.com/im/pictures/f20dbdb1-05b5-4f01-97ba-b113edc20795.jpg?im_w=480" alt="">
+          <h5 class="pt-2">Hotels</h5>
+          <p>Stylish accommodations and amenities</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!--  popular amenties cards section -->
+  <section class="container-fluid  mt-5">
+    <div class="container">
+      <h3>Popular amenities for Lahore villa rentals</h3>
+      <div class="popular-amenties-card-container">
+        <div class="popular-amenties-card ">
+          <div class="popular-amenties-card-div">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display:block;height:30px;width:30px;fill:#222" aria-hidden="true" role="presentation" focusable="false"><path d="M26 1a5 5 0 0 1 5 5c0 6.39-1.6 13.19-4 14.7V31h-2V20.7c-2.36-1.48-3.94-8.07-4-14.36v-.56A5 5 0 0 1 26 1zm-9 0v18.12c2.32.55 4 3 4 5.88 0 3.27-2.18 6-5 6s-5-2.73-5-6c0-2.87 1.68-5.33 4-5.88V1zM2 1h1c4.47 0 6.93 6.37 7 18.5V21H4v10H2zm14 20c-1.6 0-3 1.75-3 4s1.4 4 3 4 3-1.75 3-4-1.4-4-3-4zM4 3.24V19h4l-.02-.96-.03-.95C7.67 9.16 6.24 4.62 4.22 3.36L4.1 3.3zm19 2.58v.49c.05 4.32 1.03 9.13 2 11.39V3.17a3 3 0 0 0-2 2.65zm4-2.65V17.7c.99-2.31 2-7.3 2-11.7a3 3 0 0 0-2-2.83z"></path></svg>
+            <h4>Kitchen</h4>
+          </div>
+         
+        </div>
+        <div class="popular-amenties-card">
+          <div class="popular-amenties-card-div">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display:block;height:30px;width:30px;fill:#222" aria-hidden="true" role="presentation" focusable="false"><path d="M16 20.33a3.67 3.67 0 1 1 0 7.34 3.67 3.67 0 0 1 0-7.34zm0 2a1.67 1.67 0 1 0 0 3.34 1.67 1.67 0 0 0 0-3.34zM16 15a9 9 0 0 1 8.04 4.96l-1.51 1.51a7 7 0 0 0-13.06 0l-1.51-1.51A9 9 0 0 1 16 15zm0-5.33c4.98 0 9.37 2.54 11.94 6.4l-1.45 1.44a12.33 12.33 0 0 0-20.98 0l-1.45-1.45A14.32 14.32 0 0 1 16 9.66zm0-5.34c6.45 0 12.18 3.1 15.76 7.9l-1.43 1.44a17.64 17.64 0 0 0-28.66 0L.24 12.24c3.58-4.8 9.3-7.9 15.76-7.9z"></path></svg>
+            <h4>Wifi</h4>
+          </div>
+         
+        </div>
+        <div class="popular-amenties-card">
+          <div class="popular-amenties-card-div">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display:block;height:30px;width:30px;fill:#222" aria-hidden="true" role="presentation" focusable="false"><path d="M24 26c.99 0 1.95.35 2.67 1 .3.29.71.45 1.14.5H28v2h-.23a3.96 3.96 0 0 1-2.44-1A1.98 1.98 0 0 0 24 28c-.5 0-.98.17-1.33.5a3.98 3.98 0 0 1-2.67 1 3.98 3.98 0 0 1-2.67-1A1.98 1.98 0 0 0 16 28c-.5 0-.98.17-1.33.5a3.98 3.98 0 0 1-2.67 1 3.98 3.98 0 0 1-2.67-1A1.98 1.98 0 0 0 8 28c-.5 0-.98.17-1.33.5a3.96 3.96 0 0 1-2.44 1H4v-2h.19a1.95 1.95 0 0 0 1.14-.5A3.98 3.98 0 0 1 8 26c.99 0 1.95.35 2.67 1 .35.33.83.5 1.33.5.5 0 .98-.17 1.33-.5A3.97 3.97 0 0 1 16 26c.99 0 1.95.35 2.67 1 .35.33.83.5 1.33.5.5 0 .98-.17 1.33-.5A3.98 3.98 0 0 1 24 26zm0-5c.99 0 1.95.35 2.67 1 .3.29.71.45 1.14.5H28v2h-.23a3.96 3.96 0 0 1-2.44-1A1.98 1.98 0 0 0 24 23c-.5 0-.98.17-1.33.5a3.98 3.98 0 0 1-2.67 1 3.98 3.98 0 0 1-2.67-1A1.98 1.98 0 0 0 16 23c-.5 0-.98.17-1.33.5a3.98 3.98 0 0 1-2.67 1 3.98 3.98 0 0 1-2.67-1A1.98 1.98 0 0 0 8 23c-.5 0-.98.17-1.33.5a3.96 3.96 0 0 1-2.44 1H4v-2h.19a1.95 1.95 0 0 0 1.14-.5A3.98 3.98 0 0 1 8 21c.99 0 1.95.35 2.67 1 .35.33.83.5 1.33.5.5 0 .98-.17 1.33-.5A3.97 3.97 0 0 1 16 21c.99 0 1.95.35 2.67 1 .35.33.83.5 1.33.5.5 0 .98-.17 1.33-.5A3.98 3.98 0 0 1 24 21zM20 3a4 4 0 0 1 4 3.8V9h4v2h-4v5a4 4 0 0 1 2.5.86l.17.15c.3.27.71.44 1.14.48l.19.01v2h-.23a3.96 3.96 0 0 1-2.44-1A1.98 1.98 0 0 0 24 18c-.5 0-.98.17-1.33.5a3.98 3.98 0 0 1-2.67 1 3.98 3.98 0 0 1-2.67-1A1.98 1.98 0 0 0 16 18c-.5 0-.98.17-1.33.5a3.98 3.98 0 0 1-2.67 1 3.98 3.98 0 0 1-2.67-1A1.98 1.98 0 0 0 8 18c-.5 0-.98.17-1.33.5a3.96 3.96 0 0 1-2.44 1H4v-2h.19a1.95 1.95 0 0 0 1.14-.5A3.98 3.98 0 0 1 8 16c.99 0 1.95.35 2.67 1 .35.33.83.5 1.33.5.5 0 .98-.17 1.33-.5a3.96 3.96 0 0 1 2.44-1H16v-5H4V9h12V7a2 2 0 0 0-4-.15V7h-2a4 4 0 0 1 7-2.65A3.98 3.98 0 0 1 20 3zm-2 13.52.46.31.21.18c.35.31.83.49 1.33.49a2 2 0 0 0 1.2-.38l.13-.11c.2-.19.43-.35.67-.49V11h-4zM20 5a2 2 0 0 0-2 1.85V9h4V7a2 2 0 0 0-2-2z"></path></svg>
+            <h4>Pool</h4>
+          </div>
+          
+        </div>
+        <div class="popular-amenties-card">
+          <div class="popular-amenties-card-div popular-amenties-edit-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display:block;height:30px;width:30px;fill:#222" aria-hidden="true" role="presentation" focusable="false"><path d="M16 1a15 15 0 1 1 0 30 15 15 0 0 1 0-30zm0 2a13 13 0 1 0 0 26 13 13 0 0 0 0-26zm2 5a5 5 0 0 1 .22 10H13v6h-2V8zm0 2h-5v6h5a3 3 0 0 0 .18-6z"></path></svg>
+            <h4>Free parking on premises</h4>
+          </div>
+         
+        </div>
+        <div class="popular-amenties-card">
+          <div class="popular-amenties-card-div">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="display:block;height:30px;width:30px;fill:#222" aria-hidden="true" role="presentation" focusable="false"><path d="M17 1v4.03l4.03-2.32 1 1.73L17 7.34v6.93l6-3.47V5h2v4.65l3.49-2.02 1 1.74L26 11.38l4.03 2.33-1 1.73-5.03-2.9L18 16l6 3.46 5.03-2.9 1 1.73L26 20.62l3.49 2.01-1 1.74L25 22.35V27h-2v-5.8l-6-3.47v6.93l5.03 2.9-1 1.73L17 26.97V31h-2v-4.03l-4.03 2.32-1-1.73 5.03-2.9v-6.93L9 21.2V27H7v-4.65l-3.49 2.02-1-1.74L6 20.62l-4.03-2.33 1-1.73L8 19.46 14 16l-6-3.46-5.03 2.9-1-1.73L6 11.38 2.51 9.37l1-1.74L7 9.65V5h2v5.8l6 3.47V7.34l-5.03-2.9 1-1.73L15 5.03V1z"></path></svg>
+            <h4>Air Conditioning</h4>
+          </div>
+        
+        </div>
+      </div>
+      </div>
+  </section>
+       
+ <!--  Quick stats rental section -->
+      <section class="container-fluid mt-5">
+        <div class="container">
+          <h3 class="pt-4">Quick stats about villa rentals in Lahore</h3>
+          <div class="row mt-4 mb-5 gx-3 gy-3 row-cols-1 row-cols-lg-3 row-cols-md-2 ">
+            <div class="col ">
+              <div class=" quick-stats-card">
+                <h3>Total Rentals</h3>
+                <p>70 Properties</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class=" quick-stats-card">
+                <h3>Nightly prices starting at</h3>
+                <p>$10 before taxes and fees</p>
+              </div>
+            </div>
+            <div class="col ">
+              <div class=" quick-stats-card">
+                <h3>Total number of reviews
+                </h3>
+                <p>550 reviews</p>
+              </div>
+            </div>
+            <div class="col ">
+              <div class=" quick-stats-card">
+                <h3>Family-friendly rentals</h3>
+                <p>30 properties are a good fit for families</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class=" quick-stats-card">
+                <h3>Pet-friendly rentals
+                </h3>
+                <p>20 properties allow pets</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class=" quick-stats-card">
+                <h3>Rentals with a pool</h3>
+                <p>10 properties have a pool</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+     <!--  accordian section -->
+      <section class="container-fluid accordian-container ">
+        <div class="container">
+          <div class="row accordion-row-container">
+            <div class="col-6">
+              <div>
+                <h1 class="mt-5">Your questions, answered</h1>
+              </div>
+            </div>
+            <div class="col-6">
+              <div>
+                <div class="accordion" id="accordion-main-container">
+                  <div class="accordion-item accordionItem">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                       <p class="accordion-question"> What is Airbnb and how does it work?</p>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="accordion-body">
+                        <p class="accordion-answer">We verify personal profiles and listings to make sharing easy, enjoyable, and safe for millions of Hosts and travelers worldwide. Find out more about Airbnb.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item accordionItem">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      <p class="accordion-question">  How do I use search filters?</p>
+
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+             <p class="accordion-answer">          It’s easy to use our search filters to only show the listings that have the features you need. Learn more about using search filters and discover more flexible ways to search.</p> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item accordionItem">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                       <p class="accordion-question"> Do I need to meet my Host?</p>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+<p class="accordion-answer">                        Options like self check-in or booking an entire home allow you to interact with your Host mainly through in-app messaging—you can message them anytime if something comes up.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item accordionItem">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <p class="accordion-question">What if I need to cancel due to a problem with the listing or Host?</p>
+
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                       <p class="accordion-answer"> In most cases, you can resolve any issues directly by messaging your host. If they can't help, simply contact Airbnb within 24 hours of discovering the issue. <a id="learn-more" href="">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer Links -->
+      <div class="container-fluid mt-5 pt-4">
+        <div class="container footer-links-container">
+         <a href="">Airbnb <span>></span></a>
+         <a href="">Stays <span>></span></a>
+         <a id="lahore-footer-link" href="">Lahore <span>></span></a>
+        </div>
+      </div>
+
+           <!-- footer -->
+            <div class="container-fluid footer-container mt-3 p-4">
+              <div class="container">
+                <div class="footer-div" >© 2024 Airbnb, Inc</div><span>.</span>
+                <a href="">Privacy</a><span>.</span>
+                <a href="">Terms</a><span>.</span>
+                <a href="">Sitemap</a><span>.</span>
+              </div>
+              </div>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
